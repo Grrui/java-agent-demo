@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="instrument-dynamic-test" />
+        <module name="instrument-dynamic" />
+        <module name="instrument-static" />
+        <module name="target-demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="instrument-dynamic" target="6" />
+      <module name="instrument-dynamic-test" target="8" />
+      <module name="instrument-static" target="6" />
+      <module name="target-demo" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Premain-Class: com.example.instrumentstatic.PreMainTraceAgent
+Built-By: GR
+Agent-Class: com.example.instrumentstatic.PreMainTraceAgent
+Can-Redefine-Classes: true
+Can-Retransform-Classes: true
+Class-Path: javassist-3.25.0-GA.jar
+Created-By: Apache Maven 3.6.3
+Build-Jdk: 1.8.0_251
+
